@@ -25,5 +25,5 @@
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', ['uses' => 'BlogController@index']);
 
-    Route::get('blog/{id}', ['uses' => 'BlogController@showPost']);
+    Route::get('blog/{slug}', ['uses' => 'BlogController@showPost']);
 });
