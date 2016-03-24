@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Laravel</title>
-        <link rel="stylesheet" href="http://cdn.besdlab.cn/bootstrap/css/bootstrap.min.css">
+        <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
         {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
         <style>
@@ -54,6 +55,10 @@
                 text-decoration: none;
                 color: #7AD9FD;
             }
+
+            .footer-brand .h-red {
+                color: #F17373;
+            }
         </style>
     </head>
     <body>
@@ -62,7 +67,10 @@
         @yield('content')
 
         <footer class="footer-brand">
-          <p>< Made With Love By <a href="http://est-group.org/">The EST Group</a>. ></p>
+          <p>< Made With <i class="fa fa-heart h-red"></i> By <a href="http://estgroupe.com/">The EST Group</a> ></p>
         </footer>
+
+        <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
 </html>
