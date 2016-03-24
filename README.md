@@ -3,6 +3,8 @@
 
 This project is very simple demo to show you how to use Laravel eloquent-sluggable quickly.
 
+> This project was created by [The EST Group](http://est-group.org/) and [PHPHub](https://phphub.org/).
+
 ### Screenshots
 
 ![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f27x4g928dj319s0x4q8p.jpg)
