@@ -9,17 +9,17 @@ This project is very simple demo to show you how to use Laravel eloquent-sluggab
 
 ![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f27x4g928dj319s0x4q8p.jpg)
 
+### Run the demo
+
+You can refer to this [documentation](https://github.com/Aufree/laravel-packages-top100/blob/master/how-to-run-a-laravel-project.md) to know how to run this demo.
+
 ## The Tutorial
 
 ### Table of contents
 
-1. Run the demo
+1. Installation
 * Updating your Eloquent Models
 * Basic Usage
-
-### Run the demo
-
-You can refer to this [documentation](https://github.com/Aufree/laravel-packages-top100/blob/master/how-to-run-a-laravel-project.md) to know how to run this demo.
 
 ### 1. Installation
 
