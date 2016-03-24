@@ -3,7 +3,7 @@
 
 This project is very simple demo to show you how to use Laravel eloquent-sluggable quickly.
 
-> This project was created by [The EST Group](http://est-group.org/) and [PHPHub](https://phphub.org/).
+> This project was created by [The EST Group](http://estgroupe.com) and [PHPHub](https://phphub.org/).
 
 ### Screenshots
 
@@ -18,8 +18,8 @@ You can refer to this [documentation](https://github.com/Aufree/laravel-packages
 ### Table of contents
 
 1. Installation
-* Updating your Eloquent Models
-* Basic Usage
+2. Updating your Eloquent Models
+3. Basic Usage
 
 ### 1. Installation
 
@@ -44,10 +44,6 @@ Finally, from the command line again, run `php artisan vendor:publish` to publis
 the default configuration file.
 
 ### 2. Updating your Eloquent Models
-
-Your models should implement Sluggable's interface and use it's trait. You should 
-also define a protected property `$sluggable` with any model-specific configurations 
-(see [Configuration](#config) below for details):
 
 ```php
 use Cviebrock\EloquentSluggable\SluggableInterface;
@@ -93,7 +89,7 @@ $post->save();
 
 That's it! :beers: :beers: :beers:
 
-You can refer to the [documentation](http://laravel-breadcrumbs.davejamesmiller.com/en/latest/start.html) to learn more about Laravel Breadcrumbs.
+You can refer to the [documentation](https://github.com/cviebrock/eloquent-sluggable#installation) to learn more about Laravel Eloquent Sluggable.
 
 ---
 
