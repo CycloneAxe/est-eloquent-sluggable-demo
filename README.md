@@ -1,3 +1,7 @@
+## For Chinese
+
+* [中文文档请点击这里](https://phphub.org/topics/1926)
+
 ## Description
 [cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable) Easy creation of slugs for your Eloquent models in Laravel.
 
