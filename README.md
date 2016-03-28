@@ -7,11 +7,25 @@ This project is very simple demo to show you how to use Laravel eloquent-sluggab
 
 ### Screenshots
 
-![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f27x4g928dj319s0x4q8p.jpg)
+![](http://ww1.sinaimg.cn/large/0060lm7Tgw1f2crxey706j31900lmq6u.jpg)
+
+![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f2crxoxxyvj31kw0kcjvj.jpg)
 
 ### Run the demo
 
 You can refer to this [documentation](https://github.com/Aufree/laravel-packages-top100/blob/master/how-to-run-a-laravel-project.md) to know how to run this demo.
+
+### Scenario Description
+
+If you have a title "My Dinner With Andr Fran OIS E & C" article, it will generate the url:
+
+	http://example.com/post/My+Dinner+With+Andr%C3%A9+%26+Fran%C3%A7ois
+
+When you use [cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable) the converted URL as follows:
+
+	http://example.com/post/my-dinner-with-andre-francois
+	
+Here you can clearly see the converted URL more legible, and more friendly to SEO
 
 ## The Tutorial
 
