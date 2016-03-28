@@ -6,7 +6,7 @@
     <div class="content">
         <h1>Post With Slug</h1>
         <hr>
-        <table class="table table-striped">
+        <table class="table table-striped table-bordered">
             <tr>
                 <td>Url</td>
                 <td>Title</td>
