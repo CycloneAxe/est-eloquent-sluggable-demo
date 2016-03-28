@@ -2,20 +2,23 @@
 
 @section('content')
 <div class="container">
-    <h1>Posts</h1>
-    <hr>
-    <ul class="list-unstyled">
-    @foreach ($posts as $post)
-        <li>
-            <a href="/blog/{{ $post->slug }}">{{ $post->title }}</a>
-            <em>({{ $post->published_at }})</em>
-            <p>
-                {{ str_limit($post->content) }}
-            </p>
-        </li>
-    @endforeach
-    </ul>
-    <hr>
-    {!! $posts->render() !!}
+
+    <div class="content">
+        <h1>Post With Slug</h1>
+        <hr>
+        <table class="table table-striped">
+            <tr>
+                <td>Url</td>
+                <td>Title</td>
+            </tr>
+            @foreach ($posts as $post)
+            <tr>
+                <td>
+                    <a href="/blog/{{ $post->slug }}">{{ route('detail', $post->slug) }}</a></td>
+                <td>{{ $post->title }}</td>
+            </tr>
+            @endforeach
+        </table>
+    </div>
 </div>
 @endsection

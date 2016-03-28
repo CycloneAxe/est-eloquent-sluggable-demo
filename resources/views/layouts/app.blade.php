@@ -18,7 +18,7 @@
                 width: 100%;
                 display: table;
                 font-weight: 100;
-                font-family: '微软雅黑','Helvetica Neue',sans-serif,SimHei;
+                font-family: MaisonNeueWEB-Light,'Lantinghei SC','Microsoft YaHei','Open Sans',Arial,sans-serif;
             }
 
             .container {
