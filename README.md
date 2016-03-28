@@ -9,9 +9,9 @@ This project is a very simple demo to show you how to use Laravel eloquent-slugg
 
 ### Screenshots
 
-![](http://ww1.sinaimg.cn/large/0060lm7Tgw1f2crxey706j31900lmq6u.jpg)
+![](http://ww3.sinaimg.cn/large/0060lm7Tgw1f2ctm9kd1gj30ta0j4q5v.jpg)
 
-![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f2crxoxxyvj31kw0kcjvj.jpg)
+![](http://ww3.sinaimg.cn/large/0060lm7Tgw1f2ctmg9qv3j31400kwtco.jpg)
 
 ### Run the demo
 
