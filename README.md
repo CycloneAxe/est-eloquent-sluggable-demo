@@ -1,7 +1,7 @@
 ## Description
 [cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable) Easy creation of slugs for your Eloquent models in Laravel.
 
-This project is very simple demo to show you how to use Laravel eloquent-sluggable quickly.
+This project is a very simple demo to show you how to use Laravel eloquent-sluggable quickly.
 
 > This project was created by [The EST Group](http://estgroupe.com) and [PHPHub](https://phphub.org/).
 
