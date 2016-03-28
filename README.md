@@ -1,17 +1,33 @@
 ## Description
 [cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable) Easy creation of slugs for your Eloquent models in Laravel.
 
-This project is very simple demo to show you how to use Laravel eloquent-sluggable quickly.
+This project is a very simple demo to show you how to use Laravel eloquent-sluggable quickly.
 
 > This project was created by [The EST Group](http://estgroupe.com) and [PHPHub](https://phphub.org/).
 
+## The Demo
+
 ### Screenshots
 
-![](http://ww4.sinaimg.cn/large/0060lm7Tgw1f27x4g928dj319s0x4q8p.jpg)
+![](http://ww3.sinaimg.cn/large/0060lm7Tgw1f2ctm9kd1gj30ta0j4q5v.jpg)
+
+![](http://ww3.sinaimg.cn/large/0060lm7Tgw1f2ctmg9qv3j31400kwtco.jpg)
 
 ### Run the demo
 
 You can refer to this [documentation](https://github.com/Aufree/laravel-packages-top100/blob/master/how-to-run-a-laravel-project.md) to know how to run this demo.
+
+### Usage Scenarios
+
+If you have an article that title called "My Dinner With Andr Fran OIS E & C", then you'll get the url like this:
+
+	http://example.com/post/My+Dinner+With+Andr%C3%A9+%26+Fran%C3%A7ois
+
+When you use [cviebrock/eloquent-sluggable](https://github.com/cviebrock/eloquent-sluggable), the converted URL as follows:
+
+	http://example.com/post/my-dinner-with-andre-francois
+	
+As you can see, eloquent-sluggable would make the URL readable and SEO friendly.
 
 ## The Tutorial
 
@@ -25,7 +41,7 @@ You can refer to this [documentation](https://github.com/Aufree/laravel-packages
 
 1). To get started with eloquent-sluggable, add to your `composer.json` file as a dependency:
 
-```sh
+```shell
 composer require cviebrock/eloquent-sluggable
 ```
 
@@ -65,14 +81,14 @@ Of course, your database will need a column in which to store the slug. You can 
 this manually, or use the built-in artisan command to create a migration for you. 
 For example:
 
-```sh
+```shell
 php artisan sluggable:table posts
 ```
 
 After generating the migration, you will need to rebuild composer's auto-loader
 and run the migration:
 
-```sh
+```shell
 composer dump-autoload
 php artisan migrate
 ```
@@ -85,6 +101,12 @@ $post = new Post([
 ]);
 
 $post->save();
+```
+
+And so is retrieving the slug:
+
+```php
+echo $post->slug;
 ```
 
 That's it! :beers: :beers: :beers:
