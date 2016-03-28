@@ -103,6 +103,12 @@ $post = new Post([
 $post->save();
 ```
 
+And so is retrieving the slug:
+
+```php
+echo $post->slug;
+```
+
 That's it! :beers: :beers: :beers:
 
 You can refer to the [documentation](https://github.com/cviebrock/eloquent-sluggable#installation) to learn more about Laravel Eloquent Sluggable.
